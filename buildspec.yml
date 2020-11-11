@@ -1,4 +1,6 @@
-version: 0.1phases:
+version: 0.1
+
+phases:
     install:
         commands:
         - aws s3 sync dist s3://mq-my-static-bucket --delete
